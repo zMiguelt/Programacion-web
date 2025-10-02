@@ -1,0 +1,87 @@
+.house{
+    
+    width: 250px;
+    height: 250px;
+    background-color: oldlace;
+    position: relative;
+    top: 80px;
+    left: 150px;
+}
+.window01{
+    width: 45px;
+    height: 45px;
+    background-color: skyblue;
+    position: relative;
+    top: 50px;
+    left: 40px;
+    border-radius: 20%;
+
+   
+}
+.window02{
+    width: 45px;
+    height: 45px;
+    background-color: skyblue;
+    position: relative;
+    top: 5px;
+    left: 160px;
+    border-radius: 20%;
+
+   
+}
+.door{
+    width: 45px;
+    height: 75px;
+    background-color: peru;
+    position: relative;
+    top: 85px;
+    left: 100px;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+}
+.roof{
+    width: 0;
+    height: 0;
+    position: relative;
+    top: 150px;
+    left:148px;
+    border-top: 120px solid transparent;
+    border-left: 134px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 120px solid chocolate
+}
+.chimney{
+    width: 35px;
+    height: 65px;
+    background-color: sienna;
+    position: relative;
+    top: 60px;
+    left: 190px;
+}
+.grass{
+    width: 350px;
+    height: 7px;
+    background-color:green;
+    position: relative;
+    top: 80px;
+    left: 100px;
+}
+body {
+    margin: 0;
+    height: 2000px;/*para que haya scroll*/
+}
+.decor{
+    width: 100px;
+    height: 35px;
+    position: relative;
+    top: 50px;
+    background-color: rgba(0, 0, 0, 0.082);
+}
+.decor2{
+    width: 105px;
+    height: 35px;
+    position: relative;
+    top: 15px;
+    left: 145px;
+    background-color: rgba(0, 0, 0, 0.082); 
+}
