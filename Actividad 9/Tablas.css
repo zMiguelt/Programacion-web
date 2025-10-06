@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.tabla-periodica {
+    width: 936px;
+    margin: 0 auto;
+    position: relative; 
+    overflow: auto;
+}
+
+.elemento:hover {
+    transform: scale(1.1);  
+    color: black; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.elemento {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #333;
+    box-sizing: border-box; 
+    font-size: 14px;
+    color: white; 
+    margin: 1px; 
+    float: left; 
+    transition: transform 0.2s, box-shadow 0.2s; 
+}
+
+.elemento a {
+    text-decoration: none; 
+    color: inherit;     
+    display: block; 
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 50px; 
+}
+
+.elemento:hover a {
+    color: inherit; 
+}
+
+.periodo {
+    clear: both;
+    margin-bottom: 2px;
+}
+
+.periodo-2 {
+    margin-top: 52px; 
+}
+
+.espacio{
+    width: 520px; 
+    height: 50px;
+    float: left;
+}
+
+#h-elemento {
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+#he-elemento {
+    position: absolute; 
+    top: 0;
+    right: 0;
+}
+
+.bloque-bajo{
+    margin-top: 70px; 
+    margin-left: 104px; 
+    width: 730px; 
+    overflow: hidden;
+}
+
+.rojo { 
+    background-color: red;
+ } 
+
+.naranja { 
+    background-color: orange; 
+}
+
+.amarillo { 
+    background-color: gold;
+ }
+
+.gris { 
+    background-color: gray;
+ } 
+
+.azul-oscuro { 
+    background-color: darkblue; 
+} 
+
+.azul-claro { 
+    background-color: rgb(71, 163, 194);
+ } 
+
+.verde-claro { 
+    background-color: limegreen;
+ } 
+
+.verde-raro{ 
+    background-color: rgba(79, 185, 97, 0.781); 
+}
+
+.rosa{ 
+    background-color: pink;
+ }
+
+.morado{ 
+    background-color: rgba(97, 19, 97, 0.664); 
+}
